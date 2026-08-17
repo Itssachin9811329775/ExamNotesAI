@@ -1,22 +1,24 @@
-# InterviewIQ 🚀
+# ExamNotesAI 📚🤖
 
-An AI-powered interview preparation platform built with the MERN stack that helps users practice technical and HR interviews through personalized AI-generated questions, resume analysis, and intelligent feedback.
+An AI-powered exam preparation platform that generates structured notes, revision material, summaries, and important questions using Google's Gemini AI.
+
+Designed to help students learn faster and revise smarter.
 
 ## 🌐 Live Demo
 
-**Live:** https://interview-iq-client2.onrender.com
+**Live:** https://examnotesaiclient-3cyy.onrender.com
 
 ## 📌 Features
 
-* AI-powered interview question generation
-* Resume-based interview preparation
-* Technical and HR interview simulation
-* Secure Google Authentication using Firebase
-* Credit-based access system
-* Razorpay payment integration
-* Responsive and modern user interface
-* Protected routes and user management
-* Real-time interview workflow
+* AI-generated exam notes
+* Subject-wise note generation
+* Revision-focused content creation
+* Important question generation
+* Credit-based usage system
+* JWT Authentication
+* Stripe payment integration
+* Responsive dashboard
+* Secure REST APIs
 * Cloud deployment on Render
 
 ## 🛠 Tech Stack
@@ -26,7 +28,6 @@ An AI-powered interview preparation platform built with the MERN stack that help
 * React.js
 * React Router
 * Axios
-* Framer Motion
 * Tailwind CSS
 
 ### Backend
@@ -38,12 +39,16 @@ An AI-powered interview preparation platform built with the MERN stack that help
 
 ### Authentication
 
-* Firebase Authentication
-* Google OAuth
+* JWT Authentication
+* Protected Routes
+
+### AI
+
+* Google Gemini API
 
 ### Payments
 
-* Razorpay
+* Stripe
 
 ### Deployment
 
@@ -52,7 +57,7 @@ An AI-powered interview preparation platform built with the MERN stack that help
 ## 📂 Project Structure
 
 ```text
-INTERVIEW_IQ/
+ExamNotesAI/
 │
 ├── client/
 │   ├── public/
@@ -84,8 +89,6 @@ INTERVIEW_IQ/
 ### Frontend (.env)
 
 ```env
-VITE_FIREBASE_APIKEY=
-VITE_RAZORPAY_KEY_ID=
 VITE_API_URL=
 ```
 
@@ -95,9 +98,8 @@ VITE_API_URL=
 PORT=
 MONGODB_URL=
 JWT_SECRET=
-RAZORPAY_KEY_ID=
-RAZORPAY_KEY_SECRET=
-FIREBASE_PROJECT_ID=
+GEMINI_API_KEY=
+STRIPE_SECRET_KEY=
 ```
 
 ## 🚀 Installation
@@ -106,7 +108,7 @@ FIREBASE_PROJECT_ID=
 
 ```bash
 git clone <repository-url>
-cd INTERVIEW_IQ
+cd ExamNotesAI
 ```
 
 ### Install Dependencies
@@ -139,15 +141,23 @@ Frontend
 npm run dev
 ```
 
+## 🎯 Use Cases
+
+* Exam preparation
+* Last-minute revision
+* Quick topic understanding
+* AI-assisted learning
+* Subject-wise study planning
+
 ## 📈 Learning Outcomes
 
-* Full-stack MERN development
-* REST API design
-* Authentication & Authorization
-* Payment Gateway Integration
-* Cloud Deployment
-* State Management
-* Production Environment Configuration
+* AI API Integration
+* JWT Authentication
+* Stripe Payment Integration
+* Full-stack MERN Development
+* REST API Architecture
+* Production Deployment
+* Secure Backend Development
 
 ## 👨‍💻 Author
 
